@@ -1,0 +1,307 @@
+/* =======================================
+            general styling
+=========================================*/
+
+body {
+  font-weight: 400;
+  text-align: left;
+  font-family: 'Open Sans', arial, sans-serif;
+  line-height: 2.1em;
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  background-image: none;
+  background-position: top left;
+  background-size: auto;
+  background-attachment: scroll;
+  background-repeat: repeat;
+  -moz-transition: margin-top 0.2s ease-in-out;
+  -o-transition: margin-top 0.2s ease-in-out;
+  -webkit-transition: margin-top 0.2s ease-in-out;
+  transition: margin-top 0.2s ease-in-out;
+  font-size: 12px;
+  color: #666666;
+  background-color: #eeeeee;
+  margin: 0 0 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+text-align: left;
+font-family: "Bitter";
+line-height: 1.4em;
+text-transform: none;
+letter-spacing: -1px;
+font-weight: normal;
+font-style: normal;
+color: #444;
+margin: 0 0 12.5px 0;
+font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =============================================
+ *     site > sidebar, content, and footer
+ *     content > topic (if in Research page)
+ *
+===============================================*/
+
+#site {
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 50px;
+  margin-right: 252.5px;
+  width: 987px;
+  vertical-align:
+}
+
+#site2 {
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 987px;
+  vertical-align:
+}
+
+
+#content {
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 0 0 4px #f1f1f1;
+  -o-box-shadow: inset 0 0 0 4px #f1f1f1;
+  -webkit-box-shadow: inset 0 0 0 4px #f1f1f1;
+  box-shadow: inset 0 0 0 4px #f1f1f1;
+  width: 600px;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  padding: 50px;
+  border: 1px solid #e4e4e4;
+  float: right;
+}
+
+#content2 {
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 0 0 4px #f1f1f1;
+  -o-box-shadow: inset 0 0 0 4px #f1f1f1;
+  -webkit-box-shadow: inset 0 0 0 4px #f1f1f1;
+  box-shadow: inset 0 0 0 4px #f1f1f1;
+  width: 650px;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  padding: 50px;
+  border: 1px solid #e4e4e4;
+  float: right;
+}
+
+#sidebar {
+  float: left;
+  width: 237px;
+  color: black;
+}
+
+
+#sidebar h2 {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+#sidebar #logo {
+margin-bottom: 25px;
+}
+
+.site-title {
+  font-family: 'Raleway', arial, tahoma, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: "Raleway";
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+  font-size: 36px;
+  color: #444;
+}
+
+#sidebar .navbar, #contact {
+  margin-top: 50px;
+  border-top: 3px solid #e1e1e1;
+  padding-top: 50px;
+}
+
+a.nav-button-link {
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: left;
+  font-family: 'Open Sans', arial, sans-serif;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  display: block;
+  padding: 10px 20px;
+  color: #666666;
+  background-color: #e1e1e1;
+  margin: 4px 0 4px 0px;
+}
+
+a.nav-button-link:hover {
+  color: white;
+  background-color: #444;
+}
+
+a.testClass{
+  padding-right: 60px;
+  background-color: red;
+}
+a.testClass:hover {
+  color: white;
+  background-color: black;
+}
+
+
+#footer {
+  clear: both;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* =====================================
+ *  content > research-topic, research-vignette in research.html
+ *  content > external-links, about-photo in about.html
+ * ====================================== */
+
+.research-topic {
+  margin: 3px 0 3px 0;
+}
+
+.research-topic:hover {
+  color: #0F5ACA;
+  cursor: s-resize;
+}
+
+.research-vignette {
+  display: none;
+}
+
+.research-topic, a.external-links {
+  font-weight: 600;
+  color: black;
+}
+
+a.external-links:hover {
+  color: #0F5ACA;
+}
+
+/* mimics squarespace's "caption" styling */
+
+#about-photo img {
+  margin-top: 25px;
+  width: 600px;
+}
+
+#about-photo p {
+  margin: 0 0 0 0;
+  padding: 12px 0 12px 18px;
+  font-size: 11px;
+  color: #BBB;
+  background-color: rgba(0,0,0,0.7);
+  position: relative;
+  top: -49px;
+}
+
+.publications {
+  margin: 0 0 0 15px;
+  padding: 0 0 0 0;
+}
+
+.publications li {
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+
+.publications a {
+  color: #0F5ACA;
+}
+
+
+#cv-link, #authorship-note {
+  padding: 20px 0 0 0;
+}
+
+.teaching-position, .cv-section, .article-status {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 25px 0 15px 0;
+}
+
+.cv-list li {
+  line-height: 15px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+.cv-list ul {
+  padding-left: 25px;
+}
+
+.cv-table {
+  margin-left: 20px;
+}
+
+.cv-table td {
+  line-height: 15px;
+  padding-bottom: 8px;
+}
+
+.date {
+  padding-right: 15px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.sub-cv-list li {
+  line-height: 12px;
+}
+
+.teaching-table tr {
+  line-height: 16px;
+}
+
+.school {
+  display: block;
+  padding: 0 0 10px 0;
+  font-weight: bold;
+}
+/*
+span.cv-item {
+  display: table;
+}
+
+span.date {
+  display: table-cell;
+  text-align: right;
+  padding-right: 15px;
+}
+
+span.cv-entry {
+  display: table-cell;
+  text-align: left;
+}*/
